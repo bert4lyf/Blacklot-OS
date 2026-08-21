@@ -1,0 +1,27 @@
+{
+  "include": [
+    "backend"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".next"
+  ],
+  "extraPaths": [
+    ".",
+    "./backend",
+    "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Lib/site-packages"
+  ],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": [
+        ".",
+        "./backend",
+        "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Lib/site-packages"
+      ]
+    }
+  ],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false
+}

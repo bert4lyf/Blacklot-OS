@@ -1,0 +1,12 @@
+[tool.pyright]
+include = ["backend"]
+exclude = ["**/node_modules", "**/__pycache__", ".next"]
+extraPaths = [
+    ".",
+    "./backend",
+    "C:/Users/ADMIN/AppData/Local/Programs/Python/Python313/Lib/site-packages"
+]
+reportMissingImports = false
+reportMissingTypeStubs = false
+pythonVersion = "3.13"
+pythonPlatform = "Windows"
